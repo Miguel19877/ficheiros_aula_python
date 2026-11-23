@@ -1,0 +1,43 @@
+# Ambiente virtual Python (venv em devpython/)
+devpython/Include/
+devpython/Lib/
+devpython/Scripts/
+pyvenv.cfg
+venv/
+.venv/
+env/
+ENV/
+
+# Segredos e variáveis de ambiente
+.env
+.env.*
+!.env.example
+
+# Cache e bytecode do Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# Executáveis e builds gerados (PyInstaller / auto-py-to-exe)
+devpython/output/
+build/
+dist/
+*.spec
+*.exe
+
+# Modelos de IA pesados (descarregados automaticamente)
+*.pt
+
+# Ficheiros gerados em execução pelo reconhecimento.py (fotos da webcam, gráfico e log)
+prova_*.jpg
+grafico_produtividade.png
+relatorio_foco.txt
+
+# IDEs e Sistema Operativo
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store
